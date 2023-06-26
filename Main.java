@@ -129,6 +129,7 @@ public class Main {
         return boardObjects;
     }
 
+//testing new commit
 
 //    private static boolean lookForCheckWhite(Piece[][] board) {
 //
