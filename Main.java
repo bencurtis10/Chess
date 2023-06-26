@@ -129,38 +129,39 @@ public class Main {
         return boardObjects;
     }
 
+//testing new commit
 
-    private static boolean lookForCheckWhite(Piece[][] board) {
-
-        boolean foundWhiteKing = false;
-        int whiteKingX = 0;
-        int whiteKingY = 0;
-        int i = 0;
-        int j = 0;
-        while (!foundWhiteKing || i < board.length) {
-            while (!foundWhiteKing || j < board[i].length) {
-                if (board[i][j] != null && board[i][j] instanceof WhiteKing) {
-                    whiteKingX = j;
-                    whiteKingY = i;
-                    foundWhiteKing = true;
-                }
-                ++j;
-            }
-            ++i;
-        }
-
-        for (i = 0; i < board.length; ++i) {
-            for (j = 0; j < board[i].length; ++j) {
-                if (board[i][j] != null && board[i][j] instanceof BlackPiece) {
-
-                }
-            }
-        }
-
-
-
-        return false;
-    }
+//    private static boolean lookForCheckWhite(Piece[][] board) {
+//
+//        boolean foundWhiteKing = false;
+//        int whiteKingX = 0;
+//        int whiteKingY = 0;
+//        int i = 0;
+//        int j = 0;
+//        while (!foundWhiteKing || i < board.length) {
+//            while (!foundWhiteKing || j < board[i].length) {
+//                if (board[i][j] != null && board[i][j] instanceof WhiteKing) {
+//                    whiteKingX = j;
+//                    whiteKingY = i;
+//                    foundWhiteKing = true;
+//                }
+//                ++j;
+//            }
+//            ++i;
+//        }
+//
+//        for (i = 0; i < board.length; ++i) {
+//            for (j = 0; j < board[i].length; ++j) {
+//                if (board[i][j] != null && board[i][j] instanceof BlackPiece) {
+//
+//                }
+//            }
+//        }
+//
+//
+//
+//        return false;
+//    }
 
 
 
